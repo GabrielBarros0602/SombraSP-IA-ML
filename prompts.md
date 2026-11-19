@@ -16,11 +16,11 @@ Prompt principal (resumido):
 | Pergunta de ML | Comparou dois alvos nos dados: índice de calor ≥ 32 °C (só ~4 % dos dias, raro demais) e máxima ≥ 31 °C (~17 %, percentil 84 do treino). Ficou com o segundo. | Validar se 31 °C faz sentido para a SombraSP. |
 | Modelo | Escolheu Random Forest e justificou contra XGBoost, MLP/LSTM e KMeans+PCA. | — |
 | Experimentos | Rodou um teste exploratório (fora do notebook) com variáveis das 21h e vento em componentes norte/leste: não melhorou (F1 0,673 contra 0,675), então ficaram de fora. Adicionou a comparação com a regra de persistência ("amanhã igual a hoje") ao perceber que ela é uma referência forte, e a escolha do limiar de alerta pela validação do treino. | — |
-| Notebook | Escreveu e executou o notebook de ponta a ponta (24 combinações × 5 dobras de `TimeSeriesSplit`). | Ler o notebook inteiro e saber explicar cada célula no vídeo. |
-| Textos | Redigiu `README.md`, `RELATORIO_ML.md`, `ml/dados/README.md` e `docs/ROTEIRO_VIDEO.md` a partir dos números gerados pelo notebook. | Revisar o texto, gravar o vídeo e colocar o link no README. |
+| Notebook | Escreveu e executou o notebook de ponta a ponta (24 combinações × 5 dobras de `TimeSeriesSplit`). | Ler o notebook inteiro e saber explicar cada célula. |
+| Textos | Redigiu `README.md`, `RELATORIO_ML.md`, `ml/dados/README.md` a partir dos números gerados pelo notebook. | Revisar o texto. |
 
 ## Cuidados
 
 - Todos os números do relatório vêm das saídas do notebook executado; nada foi inventado ou simulado.
 - Nenhum dado pessoal foi usado: só dados meteorológicos públicos do INMET.
-- A pedido do grupo, a IA criou o repositório no GitHub e enviou os arquivos (18/11/2026). Gravar o vídeo, publicá-lo no YouTube e enviar no Teams ficam com o grupo.
+- A pedido do grupo, a IA criou o repositório no GitHub e enviou os arquivos (18/11/2026). O envio no Teams fica com o grupo (o vídeo deixou de ser exigido, conforme orientação do professor).

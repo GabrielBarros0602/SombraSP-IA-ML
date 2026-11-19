@@ -71,7 +71,6 @@ Para explorar célula por célula, use `jupyter notebook sombrasp_risco_calor.ip
 ├── README.md                 ← você está aqui
 ├── RELATORIO_ML.md           ← relatório completo, do problema à conclusão
 ├── prompts.md                ← registro do uso de IA no projeto
-├── docs/ROTEIRO_VIDEO.md     ← roteiro do vídeo de apresentação
 └── ml/
     ├── sombrasp_risco_calor.ipynb   ← notebook executado, com saídas
     ├── requirements.txt
@@ -101,8 +100,6 @@ Este repositório é a parte de **Inteligência Artificial & Machine Learning** 
 | **O que cada parte faz** | **IA&ML:** prevê na véspera, com dados reais do INMET (estação A701), se o dia seguinte será de calor forte (máxima ≥ 31 °C), disparando o alerta antecipado. **Physical Computing:** estação ESP32 (Wokwi) mede temperatura/umidade, calcula índice de calor e aciona alerta local (LED/buzzer/display). **Operating Systems:** infraestrutura Linux que provisiona e hospeda a web app SombraSP, com monitoramento e logs. **Testing:** features, critérios de aceite e casos de teste no Azure Boards. |
 | **Indicador de impacto** | Nº de alertas emitidos em dias de risco e nº de consultas a pontos de sombra/hidratação. |
 | **ODS conectados** | ODS 3 (Saúde e bem-estar), ODS 11 (Cidades sustentáveis), ODS 13 (Ação contra a mudança do clima), ODS 10 (Redução das desigualdades) |
-
-🎬 **Vídeo de apresentação (5 min):** *em breve*
 
 ## Autores
 
